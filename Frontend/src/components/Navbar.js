@@ -1,6 +1,6 @@
 import React from 'react';
-import Lanoslogo from './Lanos LOGO.png';
-import AdminLogin from './AdminLogin'
+import Lanoslogo from '../assets/Lanos LOGO.png';
+import AdminLogin from '../components/AdminLogin.js'
 
 const Navbar = () => {
   return (

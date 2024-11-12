@@ -1,6 +1,6 @@
 import React from 'react'
-import './Herosection.css';
-import design from "./design.png"
+import '../styles/Herosection.css';
+import design from "../assets/design.png";
 const Herosection = () => {
   return (
     <div className='herosection'>

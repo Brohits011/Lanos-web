@@ -1,10 +1,10 @@
 
 import React from 'react'
-import'./Growsection.css'
-import img1 from './img1.png';
-import img2 from './img2.png';
-import img3 from './img3.png';
-import img4 from './img4.png';
+import'../styles/Growsection.css'
+import img1 from '../assets/img1.png';
+import img2 from '../assets/img2.png';
+import img3 from '../assets/img3.png';
+import img4 from '../assets/img4.png';
 function Growsection(){
     return(
         <div className="grid-text-container">

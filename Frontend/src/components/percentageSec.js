@@ -1,8 +1,8 @@
 import React from 'react'
-import'./percentageSec.css'
-import image1 from './photo1.png';
-import image2 from './photo2.png';
-import image3 from './arrow.jpg';
+import'../styles/percentageSec.css';
+import image1 from '../assets/photo1.png';
+import image2 from '../assets/photo2.png';
+import image3 from '../assets/arrow.jpg';
 
 const PercentageSec = () => {
   return (

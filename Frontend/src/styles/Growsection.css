@@ -42,4 +42,18 @@
     
   }
 
+  .grid-text-container {
+    flex-direction: column; /* Stack text and images on smaller screens */
+    align-items: center; /* Center-align content */
+  }
+  
+  .grid-section {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+  }
+  
+  .text-section {
+    text-align: center; /* Center text on smaller screens */
+  }
+  
+
 

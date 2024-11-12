@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './adminLogin.css'; // Import the CSS file for styling
+import '../styles/adminLogin.css'; // Import the CSS file for styling
 
 function LoginForm() {
   const [modalVisible, setModalVisible] = useState(false);

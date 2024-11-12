@@ -1,6 +1,6 @@
 import React from 'react';
-import './Footer.css'; // Import CSS file for styling
-import logo from'./Lanos LOGO.png'
+import '../styles/Footer.css'; // Import CSS file for styling
+import logo from'../assets/Lanos LOGO.png';
 
 const Footer = () => {
   return (

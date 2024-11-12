@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './StudentAdminPanel.css'; // Import the CSS file for styling
+import '../styles/StudentAdminPanel.css'; // Import the CSS file for styling
 
 function StudentAdminPanel() {
   const [students, setStudents] = useState([

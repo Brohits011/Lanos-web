@@ -85,4 +85,15 @@
   .contact-form button:hover {
     background-color: #cc66cc;
   }
+
+  .footer-content {
+    flex-direction: column; /* Stack sections on smaller screens */
+  }
+  
+  @media (min-width: 768px) {
+    .footer-content {
+      flex-direction: row; /* Horizontal layout on larger screens */
+    }
+  }
+  
   

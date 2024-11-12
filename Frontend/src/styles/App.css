@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  width: 100%;
+  width: 100vw;
   height: 4rem;
   display: flex;
   justify-content: space-between;
@@ -26,8 +26,10 @@
   padding-right: 4rem;
 }
 
-.loginContainer{
-  display: center;
+.login-container{
+  display: flex;
+
+
 }
 .navBtn{
   display: flex;
@@ -52,6 +54,11 @@
   color: white;
 }
 
+@media (max-width: 1080px){
+  .rightPt{
+    gap: 3rem;
+  }
+}
 
 /*----------------------------------------------------*/
 
@@ -140,3 +147,5 @@
 .course-card p{
   margin: 0px;
 }
+
+
